@@ -26,7 +26,7 @@ These classes were chosen to evaluate performance across **different object scal
 
 ---
 
-## 📁 Dataset
+## Dataset
 - **Type:** Custom, self-collected dataset
 - **Images:** 200+ real-world images captured using a smartphone
 - **Annotations:** Polygon-based instance masks (JSON)
@@ -42,7 +42,7 @@ These classes were chosen to evaluate performance across **different object scal
 ---
 Link to dataset: https://drive.google.com/drive/folders/1rgXpOqdZQEemoX1MMP9XY8V30HNnJDkH?usp=drive_link
 
-## 🗂 Annotation Format
+## Annotation Format
 Each image has a corresponding JSON annotation file.
 
 ```json
@@ -106,7 +106,7 @@ model.roi_heads.mask_predictor = MaskRCNNPredictor(
 
 ---
 
-## ⚙️ Optimization & Hyperparameter Tuning
+## Optimization & Hyperparameter Tuning
 
 * **Optimizer:** AdamW
 * **Batch size:** 6
@@ -127,7 +127,7 @@ model.roi_heads.mask_predictor = MaskRCNNPredictor(
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 * **mAP@0.50** (object detection quality)
 * **Mean IoU (True Positives)** (mask accuracy)
@@ -154,7 +154,7 @@ We applied **Test-Time Augmentation**, a modern inference technique:
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 * Transfer learning is essential for custom instance segmentation
 * Mask R-CNN performs well even with limited data
@@ -164,7 +164,7 @@ We applied **Test-Time Augmentation**, a modern inference technique:
 
 ---
 
-## 📜 References
+## References
 
 * He et al., *Mask R-CNN*, ICCV 2017
 * PyTorch & Torchvision Documentation
@@ -172,12 +172,9 @@ We applied **Test-Time Augmentation**, a modern inference technique:
 
 ---
 
-## 👤 Author
+## Author
 
 **Suraj Thapa**
 MS in Data Science
 University of New Haven, CT, USA.
-
-
-Just say the word 🚀
 ```
