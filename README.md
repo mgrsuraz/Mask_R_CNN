@@ -78,7 +78,7 @@ Each image has a corresponding JSON annotation file.
 
 ### Loss Function
 
-`L = L_{cls} + L_{box} + L_{mask}`
+L = L_cls + L_box + L_mask
 
 * Classification loss
 * Bounding box regression loss (Smooth L1)
