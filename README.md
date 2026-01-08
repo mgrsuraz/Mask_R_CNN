@@ -1,10 +1,4 @@
-````markdown
 # Instance Segmentation with Mask R-CNN
-
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
-![Torchvision](https://img.shields.io/badge/Torchvision-Detection-blue)
-![Gradio](https://img.shields.io/badge/Gradio-UI-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 This repository implements **instance segmentation** using **Mask R-CNN** to detect and segment everyday objects.  
 The model is **fine-tuned on a custom dataset** and deployed using a **Gradio web interface** for interactive inference.
