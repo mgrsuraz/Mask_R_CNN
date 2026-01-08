@@ -116,7 +116,7 @@ model.roi_heads.mask_predictor = MaskRCNNPredictor(
 | --------------- | ------------ |
 | Learning Rate   | [1e-3, 5e-4] |
 | Weight Decay    | [1e-4]       |
-| Epochs (tuning) | 1            |
+| Epochs (tuning) | 10           |
 
 ### Best Configuration
 
